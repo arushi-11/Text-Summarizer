@@ -1,6 +1,6 @@
 # Text-Summarizer:exclamation:
 
-:sparkles:Text Summarization using NLP. (Minor Project):sparkles:
+:sparkles:Text Summarization using NLP. (Minor ML Project):sparkles:
 
 _______________________________
 
