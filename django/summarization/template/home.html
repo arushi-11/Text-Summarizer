@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Automatic Text Summarizer</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="login.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class = "home-body" background="assests/loginbg.jpeg">
+        <a href="index.html" class="logo" style="float: left"> HOME</a>
+        <div class = "links-heading" align="right">
+            <a class="active" href="summarizer.html"  > SUMMARIZER</a> 
+            <!-- <a href="aboutus.html" >ABOUT US</a>  -->
+        </div>
+
+        <div>
+        </div>
+
+        <div class = "main-text">
+            <h6 id="main-text-h1"> Paste your text here </h6>  
+        </div>
+       
+
+        <form action ="external/" method ="post", name="script">
+            {% csrf_token %}
+            Using Term Frequency: 
+            <input type ="text" name ="param" required><br>
+            {{data_external}}<br>
+            {{data1}}
+            <input type= "submit" value="Summary Executed">
+
+        </form><br><br>
+
+        <form action ="external1/" method ="post", name="script1">
+            {% csrf_token %}
+            Using Centrality: 
+            <input type ="text" name ="param1" required><br>
+            <!-- {{data_external}}<br> -->
+            {{data2}}
+            <input type= "submit" value="Summary Executed">
+
+        </form><br><br>
+
+        <form action ="external2/" method ="post", name="script2">
+            {% csrf_token %}
+            Using Power Method: 
+            <input type ="text" name ="param2" required><br>
+            <!-- {{data_external}}<br> -->
+            {{data3}}
+            <input type= "submit" value="Summary Executed">
+
+        </form>
+    </body>
+</html>

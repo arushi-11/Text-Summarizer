@@ -1,0 +1,338 @@
+/* @import "bourbon";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css); */
+
+
+body.home-body{
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    /* background-image:"assests/loginbg.jpg" ; */
+    /* width:100%;
+    height:100%; */
+    /* background-size: cover; */
+    /* background-size: 100% 100%; */
+    /* align-content: center; */
+}
+body{
+    /* background-color: purple; */
+    background-image: linear-gradient(to bottom right, red , blueviolet);
+    background-repeat: no-repeat;
+    /* background-image:"assests/loginbg.jpg" ; */
+    /* width:100%;
+    height:100%; */
+    background-size: cover;
+    background-size: 100% 100%;
+    /* align-content: center; */
+}
+
+.login a:hover {
+    font-weight: bold;
+  }
+
+  
+
+h1,h2,h6,button,a{
+    text-shadow: 1px 1px 3px #111111;
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9em;
+}
+
+.links-heading{
+    /* border-top: 1.75px solid #FFFFFF; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: 1.75px solid #FFFFFF; */
+    margin: -20px;
+}
+
+.links-heading a:hover {
+    font-weight: bold;
+}
+
+/* table{
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-style: ;
+    background-color: #FFA000;
+    box-shadow:  1px 1px 1px #313131;
+    width: 100%;
+    font-size: 1.1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    filter: blur(8px);
+   -webkit-filter: blur(8px);
+} */
+
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 10px;
+    /* padding-bottom: 30px ; */
+    /* padding-top: 50px; */
+    text-decoration: none;
+}
+
+a.logo{
+    font-weight: bold;
+}
+
+a.active{
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    text-shadow: 5px 5px 5px #111111;
+}
+
+h2{
+    font-size: 1.6em;
+}
+
+div .input-group input-group-lg{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.home-body .home-p {
+    padding-top: -100px;
+}
+
+html{
+    padding: 50px;
+}
+
+td{
+    padding: 10px;
+}
+
+button {
+    margin-top: 16px;
+    background: white;
+    border: none;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.home-body #continue {
+    font-size: 2em;
+    font-weight: 300;
+    padding: 5px 0;
+    width: 20%;
+    border-radius: 10px;
+    color: blueviolet;
+    border-bottom: 4px solid darken(#FFA000, 10%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input{
+    width : 40%;
+    height : 50px;
+    margin : 10px;
+    padding : 20px;
+    background:transparent;
+    border-bottom: 3px solid #FFFFFF; 
+    border-top: 0px solid #FFFFFF;
+    border-right: 0px solid #FFFFFF;
+    border-left: 0px solid #FFFFFF;
+     
+}
+
+p{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input.cbox{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 15px; 
+    height: 15px;
+    background: transparent; 
+}
+
+label.conftypes,label.gender{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#ddd;
+}
+
+table.wslinks{
+    border: 2px;
+    text-align: center;
+    width:100% ;
+    height:100%;
+    text-transform: uppercase;
+    padding: 5%;
+    font-size: 20px;
+    /* filter: blur(8px);
+   -webkit-filter: blur(8px); */
+    /* align:"center; */
+}
+
+.wslinks a:hover{
+    font-weight: bold;
+}
+
+table.wslinks p.linkdata{
+    font-size: 10px;
+    color: #8d8c8c;
+}
+
+/* div.tableblur{
+    background: transparent;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+
+
+:root {
+    --animate-duration: 1.2s;
+  }
+
+p.home-p{
+    padding-top: 50px;
+    font-size: 130px;
+    font-weight:  bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.home-div1{
+    width: 100%;
+    height: 100%;
+}
+
+video.home-video{
+    width:100% ;
+    height:100%;
+    padding: 30px;
+
+}
+
+
+
+
+/* SUMMARIZER CSS */
+
+.main-text {
+
+}
+
+.main-text #main-text-h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: ;
+}
+
+.main-text #main-text-h2 {
+    margin-top: -130px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.category .category-button{
+    padding-top: -30px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+.category .category-button #button1 {
+    height: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3em;
+    color: white;
+    background-image: linear-gradient(to bottom right,  #434343, #111111);
+    border-radius: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+.category .category-button #button2 {
+    height: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3em;
+    color: white;
+    background-image: linear-gradient(to bottom right,  #434343, #111111);
+    border-radius: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+.category .category-button #button3 {
+    height: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3em;
+    color: white;
+    background-image: linear-gradient(to bottom right, #434343, #111111 );
+    border-radius: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+
+/* INPUT HTML CSS */
+
+.home-body .input-text {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+
+input[type=text] {
+  background-color: white;
+  color: black;
+  border-radius: 19px;;
+}
+
+.home-body .summary #button3 {
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+    height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    color: white;
+    background-image: linear-gradient(to bottom right, #434343, #111111 );
+    border-radius: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+/* OUTPUT HTML CSS */
+
+.output {
+    border-radius: 20px;
+    /* width: 700px; */
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #fffff2, whitesmoke, #fffff2 );
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
