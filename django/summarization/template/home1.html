@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Automatic Text Summarizer</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="login.css" rel="stylesheet" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class = "home-body" background="assests/loginbg.jpeg">
+        <!-- <a href="index.html" class="logo" style="float: left"> HOME</a> -->
+        <div class = "links-heading" align="right">
+            <!-- <a class="active" href="summarizer.html"  > SUMMARIZER</a>  -->
+            <!-- <a href="aboutus.html" >ABOUT US</a>  -->
+        </div>
+
+        <div>
+        </div>
+
+        <div class = "main-text">
+            <h1 style="color:rgb(255, 0, 119); text-align: center; font-size: 45px; "id="main-text-h1"> TEXT SUMMARIZER</h1>  
+        </div>
+       
+
+        <form action ="external/" method ="post", name="script">
+            {% csrf_token %}
+            <h2 
+            style="color:Green; 
+            
+            ">Using Term Frequency:</h2> 
+            <input type ="text" name ="param" required><br>
+            <!-- {{data_external}} -->
+            <br>
+           <h4>{{data1}}</h4> 
+            <br>
+            <br>
+
+
+            <input type= "submit" value="Execute Summary">
+
+        </form><br><br>
+
+        <form action ="external1/" method ="post", name="script1">
+            {% csrf_token %} 
+            <h2 
+            style="color:Green; 
+            
+            ">Using Centrality</h2> 
+             
+            <input type ="text" name ="param1" required><br>
+            <!-- {{data_external}}<br> -->
+            {{data2}}
+            <br>
+            <br>
+            <input type= "submit" value="Execute Summary">
+
+        </form><br><br>
+
+        <form action ="external2/" method ="post", name="script2">
+            {% csrf_token %}
+            <h2 
+            style="color:Green; 
+            
+            ">Using Power Method</h2> 
+            <input type ="text" name ="param2" required><br>
+            <!-- {{data_external}}<br> -->
+            {{data3}}
+            <br>
+            <br>
+            <input type= "submit" value="Execute Summary">
+
+        </form>
+    </body>
+</html>
